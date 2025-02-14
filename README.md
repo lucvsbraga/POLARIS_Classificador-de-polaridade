@@ -5,8 +5,9 @@ POLARIS é um projeto de análise de polaridade textual focado na classificaçã
 ## **Contexto e Caso de Estudo**  
 Este projeto foi desenvolvido com um caso de estudo baseado nas eleições presidenciais de 2022 no Brasil, um período marcado por intensa polarização e grande engajamento popular nas redes sociais.  
 
-> **Importante:** Este projeto tem caráter puramente analítico e educativo, **sem qualquer intenção de favorecer ou prejudicar qualquer candidato ou posicionamento político**. O tema foi escolhido por sua relevância e impacto, sendo um excelente caso para estudo de polaridade textual e opinião pública.  
+Os tweets foram extraídos a uma taxa de **1000 por dia**, no período de **01/10/2022 a 31/10/2022**, filtrando mensagens que continham as palavras **Bolsonaro** e **Lula**. Isso permitiu uma análise aprofundada das opiniões expressas sobre os dois principais candidatos durante o período eleitoral.  
 
+> **Importante:** Este projeto tem caráter puramente analítico e educativo, **sem qualquer intenção de favorecer ou prejudicar qualquer candidato ou posicionamento político**. O tema foi escolhido por sua relevância e impacto, sendo um excelente caso para estudo de polaridade textual e opinião pública.  
 
 ## Estrutura do Projeto
 
@@ -25,11 +26,11 @@ Este projeto foi desenvolvido com um caso de estudo baseado nas eleições presi
 
 1. Clone o repositório:
     ```sh
-    git clone https://github.com/seu-usuario/seu-repositorio.git
+    git clone https://github.com/lucvsbraga/POLARIS_Classificador-de-polaridade.git
     ```
 2. Navegue até o diretório do projeto:
     ```sh
-    cd seu-repositorio
+    cd POLARIS_Classificador-de-polaridade
     ```
 3. Instale as dependências:
     ```sh
@@ -40,19 +41,19 @@ Este projeto foi desenvolvido com um caso de estudo baseado nas eleições presi
 
 ### Treinamento do Modelo
 
-Para treinar o modelo Naive Bayes, execute o notebook [1 - Criando o Modelo Naive Bayes.ipynb](http://_vscodecontentref_/0).
+Para treinar o modelo Naive Bayes, execute o notebook [1 - Criando o Modelo Naive Bayes.ipynb](https://github.com/lucvsbraga/POLARIS_Classificador-de-polaridade/blob/main/1%20-%20Criando%20o%20Modelo%20Naive%20Bayes.ipynb).
 
 ### Classificação de Tweets
 
-Para classificar tweets, execute o notebook [2 - Classificando tweets.ipynb](http://_vscodecontentref_/1).
+Para classificar tweets, execute o notebook [2 - Classificando tweets.ipynb](https://github.com/lucvsbraga/POLARIS_Classificador-de-polaridade/blob/main/2%20-%20Classificando%20tweets.ipynb).
 
 ### Visualizações
 
-Para visualizar os resultados, execute o notebook [3 - Visualizações.ipynb](http://_vscodecontentref_/2).
+Para visualizar os resultados, execute o notebook [3 - Visualizações.ipynb](https://github.com/lucvsbraga/POLARIS_Classificador-de-polaridade/blob/main/3%20-%20Visualizações.ipynb).
 
 ### Classificação de Frases
 
-Para classificar a polaridade de frases, execute o notebook [4 - Classificando polaridade de frases.ipynb](http://_vscodecontentref_/3).
+Para classificar a polaridade de frases, execute o notebook [4 - Classificando polaridade de frases.ipynb](https://github.com/lucvsbraga/POLARIS_Classificador-de-polaridade/blob/main/4%20-%20Classificando%20polaridade%20de%20frases.ipynb).
 
 ## Visualizações
 
@@ -70,6 +71,12 @@ Para classificar a polaridade de frases, execute o notebook [4 - Classificando p
 
 ### Gráfico de Barras - Lula
 ![Gráfico de Barras - Lula](images/bar_lula.png)
+
+### Progressão dos Tweets - Bolsonaro
+![Progressão dos Tweets - Bolsonaro](images/progressao_bolsonaro.png)
+
+### Progressão dos Tweets - Lula
+![Progressão dos Tweets - Lula](images/progressao_lula.png)
 
 ## Contribuição
 
